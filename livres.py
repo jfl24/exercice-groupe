@@ -1,5 +1,8 @@
 bibliotheque = []
 
 def ajouter_livre(titre, auteur):
-    pass
+    bibliotheque.append({"titre": titre, "auteur": auteur})
+    return bibliotheque
+
+    
 
